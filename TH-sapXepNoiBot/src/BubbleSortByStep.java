@@ -15,10 +15,10 @@ public class BubbleSortByStep {
                     needNextPass = true;
                 }
             }
-//            if (needNextPass == false) {
-//                System.out.println("Array may be sorted and next pass not needed");
-//                break;
-//            }
+            if (needNextPass == false) {
+                System.out.println("Array may be sorted and next pass not needed");
+                break;
+            }
 
         }
         System.out.println("List after the  sort: ");
